@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.one {
+border-style: solid;
+border-color: red;
+}
+p.two {
+border-style: solid;
+border-color: green;
+}
+p.three {
+border-style: dotted;
+border-color: blue;
+}
+</style>
+</head>
+<body>
+<h2>A propriedade border-color</h2>
+<p>Esta propriedade especifica a cor das quatro bordas:</p>
+<p class="one">A solid red border</p>
+<p class="two">A solid green border</p>
+<p class="three">A dotted blue border</p>
+<p><b>Nota:</b> A propriedade "border-color" não funciona se for usada
+sozinha. Use a propriedade "border-style" para definir as bordas primeiro.</p>
+</body>
+</html>
